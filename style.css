@@ -1,11 +1,14 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  margin: auto;
+
 }
 
 .navbar {
   overflow: hidden;
   background-color:black;
+ 
 }
 
 .navbar a {
@@ -63,10 +66,18 @@ body {
   display: block;
 }
 
+h2 {
+    padding: 10px;
+    
+}
+
 table {
-    font-family: arial, sans-serif;
+    
     border-collapse: collapse;
-    width: 100%;
+    width: 80%;
+    margin-left: auto;
+  margin-right: auto;
+    
   }
   
   td, th {
@@ -76,7 +87,7 @@ table {
   }
 
   td.hover:hover {
-    background-color:rgba(9, 27, 131, 0.214);
+    background-color: rgba(255, 255, 0, 0.783);
  }
   
   tr:nth-child(even) {
@@ -85,8 +96,13 @@ table {
 
   .categories {
       font-weight: Bold;
-      color:White;
-      background-color: rgb(89, 89, 89);
+      color:white;
+      background-color:black;
   }
 
   
+  .categories2 {
+    font-weight: Bold;
+      color:yellow;
+      background-color: black
+  }
