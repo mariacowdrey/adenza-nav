@@ -66,22 +66,24 @@ body {
   display: block;
 }
 
+
+
 h2 {
     padding: 10px;
-    
+    text-align: center; 
 }
 
 table {
     
     border-collapse: collapse;
-    width: 80%;
+    width: 95%;
     margin-left: auto;
-  margin-right: auto;
-    
+    margin-right: auto;
+    table-layout: fixed;
   }
   
   td, th {
-    border: 1px solid #dddddd;
+    border: 1px solid black;
     text-align: left;
     padding: 8px;
   }
@@ -94,15 +96,22 @@ table {
     background-color: #dddddd;
   }
 
+  .categories, .categories2 {
+    font-weight: Bold;
+    background-color:black;
+    border: 1px solid #dddddd;
+
+  }
+
   .categories {
-      font-weight: Bold;
       color:white;
-      background-color:black;
   }
 
   
   .categories2 {
-    font-weight: Bold;
       color:yellow;
-      background-color: black
+  }
+
+  ul {
+    margin: auto;
   }
